@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1058px){
+
+    #services{
+        flex-direction: column;
+    }
+
+    .secRight{
+        flex-direction: column-reverse;
+    }
+
+    .secLeft{
+        flex-direction: column-reverse;
+    }
+    
+    .ImgFluid{
+        /* height: 90px; */
+        margin: 70px;
+        width: 50%;
+    }
+
+    .sectionSubTag{
+        padding: 30px;
+    }
+
+    #home{
+        height: 700px;
+        flex-direction: column;
+        padding: 2px 50px;
+    }
+
+    #home ::before{
+        height: 400px;
+    }
+
+    #navbar{
+        flex-direction: column;
+        display: none;
+    }
+
+    #home p{
+        font-size: 16px;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .h-primary{
+        font-size: 25px;
+    }
+
+    /* #services .box{
+
+    } */
+
+    #services .box img{
+        height: 200px;
+        display: block;
+        margin: auto;
+        border: 2px solid black;
+        width: 100%;
+        
+    }
+
+}
